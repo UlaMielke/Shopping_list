@@ -7,7 +7,12 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-1").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
+
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
 
 
 var btnadd = document.querySelector(".add-btn-2");
@@ -18,7 +23,12 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-2").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
+
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
 
 
 var btnadd = document.querySelector(".add-btn-3");
@@ -29,8 +39,12 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-3").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
 
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
 
 var btnadd = document.querySelector(".add-btn-4");
 
@@ -40,8 +54,12 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-4").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
 
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
 
 var btnadd = document.querySelector(".add-btn-5");
 
@@ -51,8 +69,12 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-5").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
 
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
 
 var btnadd = document.querySelector(".add-btn-6");
 
@@ -62,4 +84,9 @@ btnadd.addEventListener("click", function() {
     var text = document.querySelector(".add-value-6").value;
     li.innerHTML = text;
     list.appendChild(li);
+    li.setAttribute("onclick", "delme(this)");
 }, false)
+
+function delme(me) {
+    me.parentNode.removeChild(me);
+}
