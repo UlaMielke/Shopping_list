@@ -10,10 +10,6 @@ btnadd.addEventListener("click", function() {
     li.setAttribute("onclick", "delme(this)");
 }, false)
 
-function delme(me) {
-    me.parentNode.removeChild(me);
-}
-
 
 var btnadd = document.querySelector(".add-btn-2");
 
@@ -25,10 +21,6 @@ btnadd.addEventListener("click", function() {
     list.appendChild(li);
     li.setAttribute("onclick", "delme(this)");
 }, false)
-
-function delme(me) {
-    me.parentNode.removeChild(me);
-}
 
 
 var btnadd = document.querySelector(".add-btn-3");
@@ -42,9 +34,6 @@ btnadd.addEventListener("click", function() {
     li.setAttribute("onclick", "delme(this)");
 }, false)
 
-function delme(me) {
-    me.parentNode.removeChild(me);
-}
 
 var btnadd = document.querySelector(".add-btn-4");
 
@@ -57,9 +46,6 @@ btnadd.addEventListener("click", function() {
     li.setAttribute("onclick", "delme(this)");
 }, false)
 
-function delme(me) {
-    me.parentNode.removeChild(me);
-}
 
 var btnadd = document.querySelector(".add-btn-5");
 
@@ -72,9 +58,6 @@ btnadd.addEventListener("click", function() {
     li.setAttribute("onclick", "delme(this)");
 }, false)
 
-function delme(me) {
-    me.parentNode.removeChild(me);
-}
 
 var btnadd = document.querySelector(".add-btn-6");
 
@@ -86,6 +69,7 @@ btnadd.addEventListener("click", function() {
     list.appendChild(li);
     li.setAttribute("onclick", "delme(this)");
 }, false)
+
 
 function delme(me) {
     me.parentNode.removeChild(me);
